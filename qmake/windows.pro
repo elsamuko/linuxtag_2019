@@ -8,6 +8,12 @@ include(setup.pri)
 SOURCES += $${SRC_DIR}/windows/windows.cpp
 HEADERS += $${SRC_DIR}/windows/mainwindow.hpp
 SOURCES += $${SRC_DIR}/windows/mainwindow.cpp
+
+INCLUDEPATH += $${SRC_DIR}/common/
+HEADERS += $${SRC_DIR}/common/log.hpp
+SOURCES += $${SRC_DIR}/common/log.cpp
+DEFINES += 'LOG_FILENAME=\\\"linuxtag.log\\\"'
+
 FORMS   += $${SRC_DIR}/windows/mainwindow.ui
 
 RESOURCES += $${MAIN_DIR}/resources/resources.qrc
