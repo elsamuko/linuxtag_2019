@@ -13,6 +13,12 @@
 !*.cpp
 !*.hpp
 
+!*.ui
+!*.qrc
+!*.svg
+!*.png
+!*.conf
+
 !bin/*.txt
 
 tmp
