@@ -1,7 +1,14 @@
---style=ansi
+--style=java
+--indent=spaces
+--indent-classes
+--indent-switches
 --indent-col1-comments
 --break-blocks
 --pad-oper
 --pad-paren-in
 --unpad-paren
-
+--add-braces
+--align-pointer=type
+--align-reference=type
+--keep-one-line-blocks
+--keep-one-line-statements
